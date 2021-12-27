@@ -3,7 +3,7 @@
 ## TODO
 
 - [x] Config ESLint y Prettier
-- [ ] Menú
+- [x] Menú
 - [ ] Home
 - [ ] Product Detail
 - [ ] About
