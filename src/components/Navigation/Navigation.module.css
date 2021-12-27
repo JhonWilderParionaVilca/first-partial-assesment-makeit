@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  background: #161b22;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__active {
+  color: tomato;
+}

@@ -20,5 +20,6 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/react-in-jsx-scope': RULES.OFF,
+    'import/prefer-default-export': RULES.OFF,
   },
 };
