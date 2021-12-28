@@ -1,0 +1,17 @@
+.product {
+  padding: 0 1rem 0 1rem;
+}
+.product__title {
+  text-align: center;
+}
+.product__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.product__loading {
+  text-align: center;
+  font-weight: bold;
+  color: tomato;
+}

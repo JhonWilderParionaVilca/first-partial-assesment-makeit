@@ -1,19 +1,27 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-export function ProductCard({ product }) {
-  return <div>{product.title}</div>;
+import { formatmmss } from '../../helpers/formatmmss';
+
+import { typeProductCard } from './typeProduct';
+
+import styles from './ProductCard.module.css';
+
+export function ProductCard({ id, title, image, counter }) {
+  return (
+    <div className={styles.card}>
+      <img src={image} alt={title} height={120} />
+      <p className={styles.card__title}>{title}</p>
+      <div className={styles.card__body}>
+        <p>{formatmmss(counter)}</p>
+        <button className={styles.card__btn} type="button" disabled={!counter}>
+          {id} Go to Detail!
+        </button>
+      </div>
+    </div>
+  );
 }
 
-const typosProduct = {
-  id: PropTypes.number,
-  title: PropTypes.string,
-  price: PropTypes.number,
-  category: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
-};
-
 ProductCard.propTypes = {
-  product: PropTypes.shape(typosProduct).isRequired,
+  ...typeProductCard,
+  counter: PropTypes.number.isRequired,
 };
