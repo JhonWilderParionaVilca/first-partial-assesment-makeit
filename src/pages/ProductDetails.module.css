@@ -1,0 +1,54 @@
+.main {
+  margin: 1rem 2rem;
+  padding: 1rem;
+  border: 2px solid tomato;
+  border-radius: 1rem;
+}
+.loading {
+  text-align: center;
+  font-weight: bold;
+  color: tomato;
+}
+
+.productContainer {
+  display: flex;
+}
+
+.productTitle {
+  text-align: center;
+  color: tomato;
+}
+
+.productCategory {
+  background-color: slateblue;
+  border-radius: 1rem;
+  width: max-content;
+  padding: 6px 9px;
+  color: white;
+}
+
+.productDescription {
+  width: 80%;
+  text-align: center;
+}
+
+.productDetail {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.productPrice {
+  color: green;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.productRate {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.img {
+  height: 25vh;
+}
