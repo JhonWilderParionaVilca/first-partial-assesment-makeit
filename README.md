@@ -4,9 +4,9 @@
 
 - [x] Config ESLint y Prettier
 - [x] Menú
-- [ ] Home
-- [ ] Product Detail
-- [ ] About
+- [x] Home
+- [x] Product Detail
+- [x] About
 
 ## Tecnologías
 
